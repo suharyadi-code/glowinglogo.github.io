@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="#">
+  <title>glow apple</title>
+<style>
+*
+ {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		}
+		
+body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background: #000000;
+		}
+		
+		
+.logo {
+		position: relative;
+		color: #ffffff;
+		font-size: 20em;
+		text-shadow: 0 0 50px #00ff81,
+		             0 0 100px #00ff81,
+		             0 0 150px #00ff81,
+		             0 0 200px #00ff81,
+		             0 0 250px #00ff81 ;
+		animation: animate 5s linear infinite;
+		}
+		
+@keyframes animate {
+		0% {
+				filter: hue-rotate(0deg);
+				}
+				
+		100% {
+				filter: hue-rotate(360deg);
+				}
+		}
+		
+
+
+</style>  
+
+</head>
+<body>
+
+<div class="box">
+  <div class="fa fa-apple logo" aria-hidden="true"></div>
+</div>
+  
+</body>
+</html>
